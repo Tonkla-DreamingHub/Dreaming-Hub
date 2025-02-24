@@ -1,0 +1,291 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/jensonhirst/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Dreaming Hub (Premium)☑️", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+--[[
+Name = <string> - The name of the UI.
+HidePremium = <bool> - Whether or not the user details shows Premium status or not.
+SaveConfig = <bool> - Toggles the config saving in the UI.
+ConfigFolder = <string> - The name of the folder where the configs are saved.
+IntroEnabled = <bool> - Whether or not to show the intro animation.
+IntroText = <string> - Text to show in the intro animation.
+IntroIcon = <string> - URL to the image you want to use in the intro animation.
+Icon = <string> - URL to the image you want displayed on the window.
+CloseCallback = <function> - Function to execute when the window is closed.
+]]local Tab = Window:MakeTab({
+	Name = "admin script",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+local Section = Tab:AddSection({
+	Name = "infinite yield"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "infinite yield",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+local Tab = Window:MakeTab({
+	Name = "Blox fruits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+local Section = Tab:AddSection({
+	Name = "Redz Hub"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "Redz Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()("button pressed")
+  	end    
+})
+local Section = Tab:AddSection({
+	Name = "Min Gaming"
+})
+Tab:AddButton({
+	Name = "Min Gaming",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinAE"))()("button pressed")
+  	end    
+})
+local Section = Tab:AddSection({
+	Name = "Speed Hub X"
+})
+Tab:AddButton({
+	Name = "Speed Hub X",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()("button pressed")
+  	end    
+})
+local Section = Tab:AddSection({
+	Name = "Attack Hub"
+})
+Tab:AddButton({
+	Name = "Attack Hub",
+	Callback = function()
+      		_G.Key = "H7gT9KpO2Wm1LzYv"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Marukulaes/AtlasX/refs/heads/main/script"))()("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+--[[
+Name = <string> - The name of the section.
+]]
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+--[[
+Name = <string> - The name of the section.
+]]
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+--[[
+Name = <string> - The name of the section.
+]]
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+local Tab = Window:MakeTab({
+	Name = "MM2",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+local Section = Tab:AddSection({
+	Name = "Symphony Hub"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "Symphony Hub",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/ThatSick/ArrayField/main/SymphonyHub.lua'))()("button pressed")
+  	end    
+})
+local Section = Tab:AddSection({
+	Name = "YARHM"
+})
+Tab:AddButton({
+	Name = "YARHM",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+--[[
+Name = <string> - The name of the section.
+]]
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+local Tab = Window:MakeTab({
+	Name = "Brookhaven",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+local Section = Tab:AddSection({
+	Name = "The Red"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "The Red",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/TheDarkoneMarcillisePex/Other-Scripts/main/Brook%20Haven%20Gui'))()("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+local Tab = Window:MakeTab({
+	Name = "Doors",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+local Section = Tab:AddSection({
+	Name = "mspaint"
+})
+Tab:AddButton({
+	Name = "mspaint",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/notpoiu/mspaint/main/main.lua"))()("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+local Tab = Window:MakeTab({
+	Name = "Blue Lock",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+local Section = Tab:AddSection({
+	Name = "Tbao Hub"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "Tbao",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/game/refs/heads/main/TbaoHubBlueLockRivals"))()("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+local Tab = Window:MakeTab({
+	Name = "Fisch",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+local Section = Tab:AddSection({
+	Name = "Speed Hub X"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+Tab:AddButton({
+	Name = "Speed Hub X",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+local Tab = Window:MakeTab({
+	Name = "Meme sea",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "Redz Hub"
+})
+Tab:AddButton({
+	Name = "Redz Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Redz-Hub-28581"))()("button pressed")
+  	end    
+})
